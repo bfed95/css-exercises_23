@@ -9,6 +9,7 @@ body {
 
 a{
   text-decoration: none;
+  color: black;
 }
 
 img {
@@ -20,6 +21,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  margin: 32px;
 }
 
 input {
@@ -28,6 +30,8 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
 }
 .header, .left-links {
   display: flex;
@@ -35,6 +39,7 @@ input {
   align-items: start;
   list-style: none;
   gap: 10px;
+  margin-right: auto;
 }
 .header, .right-links{
   display: flex;
@@ -42,4 +47,48 @@ input {
   align-items: end;
   list-style: none;
   gap: 10px;
+  flex-grow: 0;
+}
+.footer, .left-links {
+  display: flex;
+  justify-content:space-between;
+  align-items: start;
+  list-style: none;
+  gap: 10px;
+  margin-right: auto;
+}
+.footer, .right-links{
+  display: flex;
+  justify-content:space-between;
+  align-items: end;
+  list-style: none;
+  gap: 10px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center ;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: auto;
+}
+.footer{
+  background-color: #eee;
+  gap: 10px;
+  margin: auto;
+}
+input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
