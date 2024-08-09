@@ -11,12 +11,47 @@ img {
   font-size: 36px;
   font-weight: 900;
   text-align: center;
+  margin-bottom: 36px;
 }
 .images{
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  align-content: center;
+  margin: 0 52px 0 52px;
+  text-align: center;
+  flex-basis: 200px
 }
+.text{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+/* DESIRED SOLUTION - NO NEED TO OVERCOMPLICATE FLEX RULES!!!!!
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info {
+  max-width: 200px;
+}
+*/
+
+
+
 
 /* do not edit this footer */
 .footer {
