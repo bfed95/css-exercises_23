@@ -20,6 +20,10 @@ body {
 .container{
   display: flex;
   flex-direction: row;
+  flex-grow: 0;
+  list-style-type: none;
+  
+  
 }
 
 .footer {
@@ -39,3 +43,10 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+/* .sub-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/*
